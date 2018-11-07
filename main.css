@@ -1,15 +1,141 @@
-.NameBrand{
+html {
+  background: url("https://images.pexels.com/photos/269810/pexels-photo-269810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350");
+}
+
+header{
+  color: white;
+  height: 5vh;
+  margin: 0px;
+  text-align: center;
+  background-color: black;
+  opacity: 1;
+}
+
+center{
+  margin: 0px;
+}
+
+@keyframes bounceInLeft {
+  0% {
+     opacity: 0;
+     transform: translateX(-2000px);
+  }
+  60% {
+     opacity: 1;
+     transform: translateX(30px);
+  }
+  80% {
+     transform: translateX(-10px);
+  }
+  100% {
+     transform: translateX(0);
+  }
+}
+
+@keyframes bounceInUp {
+  0% {
+   opacity: 0;
+   transform: translateY(2000px);
+}
+60% {
+   opacity: 1;
+   transform: translateY(-30px);
+}
+80% {
+   transform: translateY(10px);
+}
+100% {
+   transform: translateY(0);
+}
+}
+
+.frontStuff{
+  margin: 0px;
+}
+
+.brand{
+  width: auto;
+  height: 25vh;
+  text-align: middle;
+  margin: 0px;
+  background-image: url("https://images.pexels.com/photos/256514/pexels-photo-256514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: bounceInLeft 3s linear;
+}
+
+.aboutUs{
+  width: auto;
+  height: 25vh;
+  text-align: center;
+  margin: 0px;
+  background-image: url("https://images.pexels.com/photos/256514/pexels-photo-256514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: bounceInUp 5s linear;
+}
+
+.topPaperChoices{
+  width: auto;
+  height: 25vh;
+  text-align: center;
+  margin: 0px;
+  background-image: url("https://images.pexels.com/photos/256514/pexels-photo-256514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: bounceInUp 7s linear;
+}
+.customerExp{
+  width: auto;
+  height: 25vh;
+  text-align: center;
+  margin: 0px;
+  background-image: url("https://images.pexels.com/photos/256514/pexels-photo-256514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: bounceInLeft 9s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .NameBrand{
+  display:flex;
+  margin: 0px;
   background-color: blue;
+  background-: 200vh;
 }
 
 .About_Us{
+  display: flex;
+  text-align: center;
+  margin: 0px;
   background-color: chocolate;
 }
 
 .TopPaperChoices{
+  display: flex;
+  text-align: center;
+  margin :0px;
   background-color: seagreen;
 }
 
 .CustomerExp{
+  display: flex;
+  margin: 0px;
   background-color: rebeccapurple;
-}
+} */
