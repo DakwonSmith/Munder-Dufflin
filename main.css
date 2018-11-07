@@ -62,6 +62,7 @@ center{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: .6;
   animation: bounceInLeft 3s linear;
 }
 
@@ -73,6 +74,7 @@ center{
   background-image: url("https://images.pexels.com/photos/256514/pexels-photo-256514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: .6;
   animation: bounceInUp 5s linear;
 }
 
@@ -85,6 +87,7 @@ center{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: .6;
   animation: bounceInUp 7s linear;
 }
 .customerExp{
