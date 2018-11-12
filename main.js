@@ -1,20 +1,9 @@
+function welcome() {
+    let name = prompt("What is your name?");
 
-  var test = document.getElementById("test");
-
-
-  frontStuff.addEventListener("mouseenter", function( event ) {   
-    event.target.style.color = "purple";
-
-    setTimeout(function() {
-      event.target.style.color = "";
-    }, 500);
-  }, false);
-
-
-  frontStuff.addEventListener("mouseover", function( event ) {
-    event.target.style.color = "orange";
-
-    setTimeout(function() {
-      event.target.style.color = "";
-    }, 500);
-  }, false);
+    if (name = name) {
+    window.alert("Welcome to Munder Duffin, " + name + "! This is a place for your creation for digital paper. Prove yourself.");
+  } else {
+    window.alert("Welcome to Munder Duffin! This is a place for your creation for digital paper. Prove yourself.");
+  }
+}

@@ -11,10 +11,6 @@ header{
   opacity: 1;
 }
 
-center{
-  margin: 0px;
-}
-
 @keyframes bounceInLeft {
   0% {
      opacity: 0;
@@ -65,6 +61,7 @@ center{
   opacity: .6;
   animation: bounceInLeft 3s linear;
 }
+
 
 .aboutUs{
   width: auto;
